@@ -42,7 +42,7 @@ print ("done with #9.\n\n")
 
 
 
-print("Searching for entries not AES, exercise 9:")
+print("Searching for entries not AES, exercise 10:")
 noaes=source_cfg.find_objects_wo_child(r"^crypto\ map\ CRYPTO", childspec="transform-set AES")
 for c in noaes:
     muck=(c.parent)
