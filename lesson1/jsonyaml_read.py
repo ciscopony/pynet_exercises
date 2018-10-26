@@ -3,9 +3,8 @@
 """
 From the worksheet:
 
-6. Write a Python program that creates a list. One of the elements of the list
-should be a dictionary with at least two keys. Write this list out to a file using both
-YAML and JSON formats. The YAML file should be in the expanded form.
+7. Write a Python program that reads both the YAML file and the JSON file
+created in exercise6 and pretty prints the data structure that is returned.
 """
 
 import json
